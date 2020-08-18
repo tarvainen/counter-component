@@ -35,6 +35,12 @@ Start development server by issuing following command.
 npm run serve
 ```
 
+Running tests
+
+```
+npm test
+```
+
 # License
 
 MIT

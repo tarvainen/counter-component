@@ -40,4 +40,4 @@ class CounterComponent extends HTMLElement {
   }
 }
 
-export default CounterComponent
+module.exports = CounterComponent
