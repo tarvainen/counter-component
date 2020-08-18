@@ -12,6 +12,17 @@ class CounterComponent extends HTMLElement {
     super()
 
     this.attachShadow({ mode: 'open' })
+
+    this.shadowRoot.innerHTML = /* html */ `
+      <div>
+        <button onclick="this.getRootNode().host.increment()">+</button>
+        <button onclick="this.getRootNode().host.decrement()">-</button>
+        <button onclick="this.getRootNode().host.reset()">Reset</button>
+
+        <p>The count is <span id="count" /></p>
+      </div>
+    `
+
     this.reset()
   }
 
@@ -28,15 +39,7 @@ class CounterComponent extends HTMLElement {
   }
 
   render() {
-    this.shadowRoot.innerHTML = /* html */ `
-      <div>
-        <button onclick="this.getRootNode().host.increment()">+</button>
-        <button onclick="this.getRootNode().host.decrement()">-</button>
-        <button onclick="this.getRootNode().host.reset()">Reset</button>
-
-        <p>The count is ${this.count}</p>
-      </div>
-    `
+    this.shadowRoot.querySelector('#count').innerText = this.count
   }
 }
 
