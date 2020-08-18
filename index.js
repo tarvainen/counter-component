@@ -15,9 +15,17 @@ class CounterComponent extends HTMLElement {
     this.reset()
   }
 
-  reset = () => this.count = 0
-  increment = () => this.count++
-  decrement = () => this.count--
+  reset() {
+    this.count = 0
+  }
+
+  increment() {
+    this.count++
+  }
+
+  decrement() {
+    this.count--
+  }
 
   render() {
     this.shadowRoot.innerHTML = /* html */ `
