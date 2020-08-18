@@ -1,5 +1,7 @@
 # COUNTER-COMPONENT
 
+![CI](https://github.com/tarvainen/counter-component/workflows/CI/badge.svg)
+
 ## Usage
 
 1. Install package
