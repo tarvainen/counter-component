@@ -1,0 +1,27 @@
+{
+  "name": "@tarvainen/counter-component",
+  "version": "0.0.1",
+  "description": "Counter Component for your website!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.js",
+    "serve": "parcel example/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarvainen/counter-component.git"
+  },
+  "keywords": [
+    "counter"
+  ],
+  "author": "Atte Tarvainen <tarvainen.atte@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarvainen/counter-component/issues"
+  },
+  "homepage": "https://github.com/tarvainen/counter-component#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
