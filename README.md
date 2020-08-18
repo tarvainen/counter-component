@@ -11,7 +11,7 @@ npm i @tarvainen/counter-component
 2. Import and register `custom element`
 
 ```
-import CounterComponent from '../index'
+import CounterComponent from '@tarvainen/counter-component'
 
 customElements.define('app-counter', CounterComponent)
 ```
