@@ -1,6 +1,6 @@
 {
   "name": "@tarvainen/counter-component",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Counter Component for your website!",
   "main": "index.js",
   "scripts": {
